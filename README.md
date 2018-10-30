@@ -4,15 +4,14 @@ Practice of using media queries
 **Landscapes**
 
 ```
-1. Use the following values:
+Values:
   - large desktop: 1800px
   - medium desktop: 1200px
   - Tablet Landscape: 960px
   - Tabled Portrait: 768px
   - mobile: 320px
 ```
-Main file: index.html is you structure
-Create location for this blocks following instructions:
+Instructions:
 
 **From large Desktop**
   1. 1 block -> 4 elements in a row: all equal width
