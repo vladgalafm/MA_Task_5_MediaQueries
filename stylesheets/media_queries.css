@@ -1,20 +1,24 @@
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .colored {
+        float: left;
+    }
+
     .first.block .colored,
     .second.block .colored {
         width: 50%;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    .colored {
+        float: left;
+    }
+
     .first.block .colored,
     .second.block .colored,
     .fourth.block .colored:first-of-type,
-    .fourth.block .colored:nth-of-type(2){
-        width: 50%;
-    }
-
+    .fourth.block .colored:nth-of-type(2),
     .fifth.block > div:not(:nth-of-type(5)) {
-        float: left;
         width: 50%;
     }
 
@@ -23,17 +27,19 @@
     }
 }
 
-@media only screen and (min-width: 960px) and (max-width: 1199px) {
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+    .colored {
+        float: left;
+    }
+
     .first.block .colored,
     .second.block .colored,
     .fourth.block .colored,
     .fifth.block > div:not(:nth-of-type(5)){
-        float: left;
         width: calc(100%/2);
     }
 
     .third.block .colored {
-        float: left;
         width: calc(100%/3);
     }
 
@@ -50,20 +56,22 @@
     }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1799px) {
+@media screen and (min-width: 1200px) and (max-width: 1799px) {
+
     .first.block .colored,
     .second.block .colored {
         float: left;
         width: calc(100%/2);
     }
 
+    .third .colored,
+    .fourth .colored {
+        float: left;
+    }
+
     .third.block .colored:first-of-type,
     .third.block .colored:nth-of-type(2) {
         width: 50%;
-    }
-
-    .fourth .colored {
-        float: left;
     }
 
     .fourth.block .colored:nth-of-type(2n+1) {
@@ -84,7 +92,7 @@
     }
 }
 
-@media only screen and (min-width: 1800px) {
+@media screen and (min-width: 1800px) {
     .colored {
         float: left;
     }
